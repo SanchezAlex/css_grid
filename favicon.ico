@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for temp/58ea25e3_4.ico in <b>/home/admin/prodraw/favicon/download.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  readfile(temp/58ea25e3_4.ico) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in <b>/home/admin/prodraw/favicon/download.php</b> on line <b>24</b><br />
