@@ -90,6 +90,9 @@ body {
   margin: 0;
   padding: 0; }
   body .grid-header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
     background-color: #182c38; }
     body .grid-header .nav-bar {
       width: 100%; }
@@ -127,9 +130,7 @@ body {
           float: right;
           display: none;
           cursor: pointer;
-          position: absolute;
-          right: 3%;
-          top: 3%;
+          margin: 33px 0;
           padding: 26px 11px;
           z-index: 5; }
           body .grid-header .nav-bar .nav-wrap .nav-button span {
@@ -193,6 +194,7 @@ body {
     clear: both;
     overflow: hidden; }
   body .grid-intro {
+    padding-top: 124px;
     background-color: #182c38; }
     body .grid-intro .slide-1 {
       background: url(../img/intro.jpg);
@@ -343,9 +345,6 @@ body {
     line-height: 15px; }
   body .grid-header .nav-bar .nav-wrap .logo .brand .small {
     font-size: 12px; }
-  body .grid-header .nav-bar .nav-wrap .nav-button {
-    right: 0;
-    top: 5%; }
   body .grid-intro .slide-1 > .container .description p, body .grid-intro .slide-2 > .container .description p, body .grid-intro .slide-3 > .container .description p {
     font-size: 32px;
     line-height: 40px;
