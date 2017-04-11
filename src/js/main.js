@@ -1,20 +1,20 @@
 $(document).ready(function() {
-    var a = '#nav';
-    var b = 'active';
+    var navMain = '#nav';
+    var navActive = 'active';
 
     $('.nav-button').click(function() {
         $(this).toggleClass('open');
 
-        if ($(a).hasClass(b)) {
-            $(a).animate({height:0},300);
+        if ($(navMain).hasClass(navActive)) {
+            $(navMain).stop().animate({height:0},300);
             setTimeout(function(){
-                $(a).removeClass(b).removeAttr('style');
+                $(navMain).removeClass(navActive).removeAttr('style');
             },300);
         } else {
-            var c = $(b).height($(window).height() - 124 );
-            $(a).height(0).animate({height:c},250);
+            var navHeight = $(navActive).stop().height($(window).height() - 124 );
+            $(navMain).height(0).animate({height:navHeight},250);
             setTimeout(function(){
-                $(a).addClass(b).removeAttr('style');
+                $(navMain).addClass(navActive).removeAttr('style');
             },250);
         }
     });

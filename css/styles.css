@@ -100,8 +100,7 @@ body {
         margin: 0 auto;
         overflow: hidden; }
         body .grid-header .nav-bar .nav-wrap .logo {
-          float: left;
-          display: block; }
+          float: left; }
           body .grid-header .nav-bar .nav-wrap .logo .drop-img {
             display: inline-block;
             padding: 21px 30px 20px 32px;
