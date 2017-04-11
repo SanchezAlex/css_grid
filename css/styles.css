@@ -294,15 +294,15 @@ body {
     font-size: 45px; }
   body .grid-header .nav-bar .nav-wrap .logo .brand .small {
     font-size: 19px; }
-  body .grid-header .nav-bar .nav-wrap .nav-list ul > li a {
-    font-size: 18px;
-    padding: 0 10px; }
   body .grid-header .nav-bar .nav-wrap .nav-list {
     padding: 50px 10px 41px 0; }
-  body .grid-header .nav-bar .nav-wrap .nav-list li {
-    padding: 0 10px; }
-  body .grid-header .nav-bar .nav-wrap .nav-list li a {
-    font-size: 19px; } }
+    body .grid-header .nav-bar .nav-wrap .nav-list ul > li a {
+      font-size: 18px;
+      padding: 0 10px; }
+    body .grid-header .nav-bar .nav-wrap .nav-list li {
+      padding: 0 10px; }
+      body .grid-header .nav-bar .nav-wrap .nav-list li a {
+        font-size: 19px; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .container {
@@ -311,15 +311,15 @@ body {
     font-size: 30px; }
   body .grid-header .nav-bar .nav-wrap .logo .brand .small {
     font-size: 12px; }
-  body .grid-header .nav-bar .nav-wrap .nav-list ul > li a {
-    font-size: 16px;
-    padding: 0 10px; }
   body .grid-header .nav-bar .nav-wrap .nav-list {
     padding: 50px 10px 41px 0; }
-  body .grid-header .nav-bar .nav-wrap .nav-list li {
-    padding: 0 10px; }
-  body .grid-header .nav-bar .nav-wrap .nav-list li a {
-    font-size: 16px; }
+    body .grid-header .nav-bar .nav-wrap .nav-list ul > li a {
+      font-size: 16px;
+      padding: 0 10px; }
+    body .grid-header .nav-bar .nav-wrap .nav-list li {
+      padding: 0 10px; }
+      body .grid-header .nav-bar .nav-wrap .nav-list li a {
+        font-size: 16px; }
   body .grid-intro .slide-1 > .container .description p, body .grid-intro .slide-2 > .container .description p, body .grid-intro .slide-3 > .container .description p {
     font-size: 85px; }
   body .grid-expect .container .products {
@@ -335,8 +335,8 @@ body {
   body .grid-expect .container .products {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr); }
-  body .grid-expect .container .products .element {
-    margin: 0 auto; } }
+    body .grid-expect .container .products .element {
+      margin: 0 auto; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body .grid-header .nav-bar .nav-wrap .logo .brand .big {
@@ -363,12 +363,11 @@ body {
     font-size: 35px;
     padding: 35px 0 46px; }
   body .grid-expect .container .products {
-    padding-bottom: 70px; }
-  body .grid-expect .container .products {
+    padding-bottom: 70px;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr; }
-  body .grid-expect .container .products .element {
-    margin: 0 auto; } }
+    body .grid-expect .container .products .element {
+      margin: 0 auto; } }
 
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   body .grid-header .nav-bar .nav-wrap .nav-button {
